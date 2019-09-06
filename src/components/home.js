@@ -1,74 +1,68 @@
 import React from "react";
-import google from "../images/icons/google.png";
+import google from "../images/icons/icon-google.png";
 
 const Home = () => {
   return (
     <div>
-      <div className='limiter'>
-        <div className='container-login100'>
-          <div className='wrap-login100'>
-            <form className='login100-form validate-form'>
-              <span className='login100-form-title p-b-43'>
-                Login to continue
-              </span>
-              <h3 className='email-title'>Email</h3>
-              <div
-                className='wrap-input100 validate-input'
-                data-validate='Valid email is required: ex@abc.xyz'
-              >
-                <input
-                  className='input100'
-                  type='text'
-                  name='email'
-                  validate='required'
-                />
-                <span className='focus-input100' />
-              </div>
-              <h3 className='password-title'>Password</h3>
-              <div
-                className='wrap-input100 validate-input'
-                data-validate='Password is required'
-              >
-                <input
-                  className='input100'
-                  type='password'
-                  name='pass'
-                  validate='required'
-                />
-                <span className='focus-input100' />
-              </div>
+      <div class='container-login100'>
+        <div class='wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30'>
+          <form class='login100-form validate-form'>
+            <span class='login100-form-title p-b-37'>Sign In</span>
 
-              <div className='flex-sb-m w-full p-t-3 p-b-32'>
-                <div>
-                  <a href='#' className='txt1'>
-                    Forgot Password?
-                  </a>
-                </div>
-              </div>
+            <div
+              class='wrap-input100 validate-input m-b-20'
+              data-validate='Enter username or email'
+            >
+              <input
+                class='input100'
+                type='text'
+                name='username'
+                placeholder='Username or email'
+              />
+              <span class='focus-input100'></span>
+            </div>
 
-              <div className='container-login100-form-btn'>
-                <button className='login100-form-btn'>Login</button>
-              </div>
+            <div
+              class='wrap-input100 validate-input m-b-25'
+              data-validate='Enter password'
+            >
+              <input
+                class='input100'
+                type='password'
+                name='pass'
+                placeholder='Password'
+              />
+              <span class='focus-input100'></span>
+            </div>
 
-              <div className='text-center p-t-46 p-b-20'>
-                <span className='txt2'>or sign up using</span>
-              </div>
-              <div className='oauth'>
-                <a href='#' class='btn-face m-b-20'>
-                  <i className='fa fa-facebook-official'></i>
-                  Facebook
-                </a>
-                <a href='#' className='btn-google m-b-20'>
-                  <img src={google} />
-                  Google
-                </a>
-              </div>
-            </form>
+            <div class='container-login100-form-btn'>
+              <button class='login100-form-btn'>Sign In</button>
+            </div>
 
-            <div className='login100-more' />
-          </div>
+            <div class='text-center p-t-57 p-b-20'>
+              <span class='txt1'>Or login with</span>
+            </div>
+
+            <div class='flex-c p-b-112'>
+              <a href='#' class='login100-social-item'>
+                <i class='fa fa-facebook-f'></i>
+              </a>
+
+              <a href='#' class='login100-social-item'>
+                <img src={google} alt='GOOGLE' />
+              </a>
+            </div>
+
+            <div class='text-center'>
+              <a href='#' class='txt2 hov1'>
+                Sign Up
+              </a>
+            </div>
+          </form>
         </div>
       </div>
+
+      <div id='dropDownSelect1'></div>
     </div>
   );
 };
