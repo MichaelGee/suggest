@@ -40,7 +40,7 @@ const Home = () => {
             </div>
 
             <div class='text-center p-t-57 p-b-20'>
-              <span class='txt1'>Or login with</span>
+              <span class='txt1'>Or Login with</span>
             </div>
 
             <div class='flex-c p-b-112'>
