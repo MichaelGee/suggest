@@ -7,9 +7,10 @@ const Home = () => {
   return (
     <div>
       <Navbar />
+      {/* Section 1 */}
       <section className='section1'>
-        <div className='container'>
-          <div>
+        <div className='contain'>
+          <div className='text'>
             <h1>Make a bold suggestion</h1>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae,
@@ -17,8 +18,26 @@ const Home = () => {
               amet velit sunt sint! Blanditiis quam harum molestias perspiciatis
               quod velit sapiente voluptatibus et.
             </p>
+            <div class='container-login100-form-btn'>
+              <button class='login100-form-btn'>Get Started</button>
+            </div>
           </div>
           <img src={preview} alt='img' loading='lazy' />
+        </div>
+      </section>
+
+      {/* Section 2 */}
+      <section className='section2'>
+        <div className='overlay'>
+          <div className='section2-inner'>
+            <h1>Make a change</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae,
+              excepturi veniam? Iure praesentium necessitatibus eligendi facilis
+              amet velit sunt sint! Blanditiis quam harum molestias perspiciatis
+              quod velit sapiente voluptatibus et.
+            </p>
+          </div>
         </div>
       </section>
     </div>
