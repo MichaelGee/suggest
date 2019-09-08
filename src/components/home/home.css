@@ -109,10 +109,10 @@ img{
   transition: all 0.4s;
 
   box-shadow: 0 10px 30px 0px rgba(89, 118, 212, 0.5);
-  -moz-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5);
-  -webkit-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5);
-  -o-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5);
-  -ms-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5);
+  -moz-box-shadow:  0 10px 30px 0px rgba(89, 118, 212, 0.5);
+  -webkit-box-shadow:  0 10px 30px 0px rgba(89, 118, 212, 0.5);
+  -o-box-shadow:  0 10px 30px 0px rgba(89, 118, 212, 0.5);
+  -ms-box-shadow:  0 10px 30px 0px rgba(89, 118, 212, 0.5);
 }
 
 .login100-form-btn:hover {
