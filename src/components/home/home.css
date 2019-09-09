@@ -31,6 +31,9 @@ img{
     margin: 1rem 0;
 }
 
+.section1-para{
+    text-align: left;
+}
 /* Section2 */
 .section2{
     position: relative;
@@ -122,4 +125,15 @@ img{
   -webkit-box-shadow:  0 10px 30px 0px rgba(89, 118, 212, 0.5);
   -o-box-shadow:  0 10px 30px 0px rgba(89, 118, 212, 0.5);
   -ms-box-shadow:  0 10px 30px 0px rgba(89, 118, 212, 0.5);
+}
+
+
+/* Footer */
+    
+#sticky-footer {
+    flex-shrink: none;
+  }
+
+a{
+    cursor: pointer;
 }
