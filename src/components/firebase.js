@@ -2,13 +2,12 @@ import app from "firebase/app";
 import "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBt3obeninAHbTFsPZLGrw4c4BwGzUZmgo",
-  authDomain: "suggest-bc3de.firebaseapp.com",
-  databaseURL: "https://suggest-bc3de.firebaseio.com",
-  projectId: "suggest-bc3de",
-  storageBucket: "",
-  messagingSenderId: "1035735767450",
-  appId: "1:1035735767450:web:ad84267ac38c845b920223"
+  apiKey: process.env.API_KEY,
+  authDomain: process.env.AUTH_DOMAIN,
+  databaseURL: process.env.DATABASE_URL,
+  projectId: process.env.PROJECT_ID,
+  messagingSenderId: process.env.MESSAGE_SENDER_ID,
+  appId: process.env.APP_ID
 };
 
 class Fire {
